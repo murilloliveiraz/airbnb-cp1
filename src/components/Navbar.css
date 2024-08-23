@@ -1,0 +1,25 @@
+header {
+    display: grid;
+
+}
+
+.logo-header {
+    width: 114px;
+}
+
+.header-buttons{
+    width: 480px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    border-radius: 26px;
+    border: 1px solid rgba(88, 88, 88, 0.322);
+    height: 40px;
+}
+
+.search {
+    color: #ffff;
+    border-radius: 50%;
+    padding: 8px;
+    background-color: #FF385c;
+}
