@@ -1,0 +1,15 @@
+.imovel-header{
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    padding: 0 80px;
+}
+
+.imovel-header ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.imovel-header ul li {
+    display: flex;
+    gap: 12px;
+}
