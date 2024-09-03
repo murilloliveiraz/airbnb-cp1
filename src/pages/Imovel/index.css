@@ -28,6 +28,18 @@
     height: 40%;
 }
 
+.images img:hover{
+    cursor: pointer;
+    filter: brightness(80%);
+    transition: all .5s;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
 .img1 {
     grid-area: img1;
     height: 100%;
@@ -48,9 +60,3 @@
 .img5 {
     grid-area: img5;
 }
-
-img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-}   
