@@ -1,0 +1,25 @@
+
+.card {
+    width: 475px;
+    height: 226px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.profile {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.profile img {
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    height: 50px;
+}
+
+.stars {
+    width: 12px;
+}

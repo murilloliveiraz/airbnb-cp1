@@ -60,3 +60,79 @@ img{
 .img5 {
     grid-area: img5;
 }
+.avaliacoes {
+    border-top: 1px solid rgba(88, 88, 88, 0.322);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 40px 0px;
+    width: 1120px;
+    margin: 40px auto;
+}
+
+.price-card {
+    display: grid;
+    width: 372px;
+    height: 494px;
+    padding: 24px;
+    grid-template-columns: 1fr;
+    gap: 16px;
+}
+
+.price {
+    font-size: 24px;
+}
+
+.price-card form > .inputs-check {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.inputs-check .check{
+    border-radius: 8px;
+    border: 1px solid rgba(61, 61, 61, 0.453);
+    padding: 8px;
+}
+
+.price-card input{
+    width: 100%;
+    border: none;
+}
+
+.inputs-check .check label {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.hospedes-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.price-card form > div > label {
+    justify-self: start;
+}
+
+.price-card form > div > input {
+    width: 100%;
+}
+
+.price-card form {
+    display: grid;
+    gap: 16px;
+}
+
+.price-card button {
+    width: 100%;
+}
+
+.price-card div ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    list-style: none;
+}
+
+.price-card div h3 {
+    display: flex;
+    justify-content: space-between;
+}

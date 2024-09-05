@@ -11,3 +11,8 @@ export {
     img4,
     img5
 }
+import star from "./black-star-icon.svg"
+
+export{
+    star
+}
