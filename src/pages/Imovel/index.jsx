@@ -83,6 +83,60 @@ const index = () => {
             <CardAvaliação profileImage="https://a0.muscache.com/im/pictures/user/User/original/d0938c24-bab6-4d4a-bb22-a09694397f5d.jpeg?im_w=240" name="Laís" timeAtApp="4 meses no Airbnb" avaliationTime="2 semanas atrás" stayedTime="
     Ficou algumas noites" avaliation="O ambiente maravilhoso, respondia totalmente com que é proposto pela publicação. Comunicação rápida e muito boa com o anfitrião Rafael."/>
         </section>
+
+    <aside className="conteudoPrincipalLadoDireito">
+        <section className="reserva">
+            <div className="precoPorNoite">
+            <h1>R$1.420</h1>
+            <span>por noite</span>
+            </div>
+
+            <div className="checkInOut">
+            <button className="botaoCheck In">
+                CHECK-IN
+                <span>08/08/2024</span>
+            </button>
+            <button className="botaoCheck Out">
+                CHECKOUT
+                <span>12/08/2024</span>
+            </button>
+            </div>
+
+            <button className="botaoHospedes">
+            <div>
+                HÓSPEDES
+                <span>1 hóspede</span>
+            </div>
+            </button>
+
+            <button className="botaoReservar">Reservar</button>
+            <p className="aviso">Você ainda não será cobrado</p>
+
+            <div className="precosPlano">
+            <p className="precoSublinhado">R$1.420 x 5 noites</p>
+            <p>R$7.100</p>
+            </div>
+
+            <div className="precosPlano">
+            <p className="precoSublinhado">Taxa de limpeza</p>
+            <p>R$200</p>
+            </div>
+
+            <div className="precosPlano">
+            <p className="precoSublinhado">Taxa de serviço do Airbnb</p>
+            <p>R$1.061</p>
+            </div>
+
+            <div className="total">
+            <p>Total sem impostos</p>
+            <p>R$8.361</p>
+            </div>
+        </section>
+
+        <section className="denuncia">
+            <a href="#">Denunciar este anúncio</a>
+        </section>
+        </aside>
     </section>
   )
 }
