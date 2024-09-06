@@ -1,7 +1,8 @@
 .imovel-header{
     display: grid;
     grid-template-columns: 5fr 2fr;
-    padding: 0 80px;
+    padding: 20px 160px;
+    align-items: center;
 }
 
 .imovel-header ul {
@@ -14,6 +15,14 @@
     gap: 12px;
 }
 
+.imovel-header h1 {
+    font-size: 1.7rem;
+}
+
+.titulo-imovel {
+    margin: 0 80px;
+}
+
 .images {
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -23,7 +32,7 @@
         "img1 img4 img5";
     gap: 10px;
     border-radius: 16px;
-    margin: 0 80px;
+    margin: 0 160px;
     overflow: hidden;
     height: 40%;
 }
@@ -60,6 +69,14 @@ img{
 .img5 {
     grid-area: img5;
 }
+
+.conteudoPrincipal {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 1280px;
+    padding: 40px 80px;
+}
+
 .avaliacoes {
     border-top: 1px solid rgba(88, 88, 88, 0.322);
     display: grid;
@@ -69,80 +86,12 @@ img{
     margin: 40px auto;
 }
 
-.price-card {
-    display: grid;
-    width: 372px;
-    height: 494px;
-    padding: 24px;
-    grid-template-columns: 1fr;
-    gap: 16px;
-}
-
-.price {
-    font-size: 24px;
-}
-
-.price-card form > .inputs-check {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.inputs-check .check{
-    border-radius: 8px;
-    border: 1px solid rgba(61, 61, 61, 0.453);
-    padding: 8px;
-}
-
-.price-card input{
-    width: 100%;
-    border: none;
-}
-
-.inputs-check .check label {
-    font-size: 12px;
-    font-weight: bold;
-}
-
-.hospedes-div{
-    display: flex;
-    flex-direction: column;
-}
-
-.price-card form > div > label {
-    justify-self: start;
-}
-
-.price-card form > div > input {
-    width: 100%;
-}
-
-.price-card form {
-    display: grid;
-    gap: 16px;
-}
-
-.price-card button {
-    width: 100%;
-}
-
-.price-card div ul {
-    display: flex;
-    justify-content: space-between;
-    padding: 0;
-    list-style: none;
-}
-
-.price-card div h3 {
-    display: flex;
-    justify-content: space-between;
-}
 
 .conteudoPrincipalLadoDireito {
     display: flex;
     flex-direction: column;
     width: 372px;
     height: 494px;
-    padding-top: 32px;
 }
 
 .reserva {
@@ -154,8 +103,9 @@ img{
 
 .precoPorNoite {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     gap: 5px;
+    height: 50px;
 }
 
 .precoPorNoite h1 {
