@@ -29,7 +29,7 @@
     flex-direction: column;
     gap: 16px;
     margin: 0 80px;
-    margin-top: 80px;
+    margin-top: 40px;
     padding: 34px 0px;
     font-size: 20px;
     border-top: 1px solid #b5b2b2;
@@ -89,16 +89,26 @@
 
 .mapa {
     margin-top: 20px;
-    width: 80%;
-    height: 450px;
-    position: relative;
+    width: 70%;
+    display: grid;
+    height: 550px;
+    place-items: center;
+    grid-template-rows: auto 1fr;
+    margin: auto;
 }
 
-.mapa iframe{
+.mapa h3 {
+    align-self: start;
+    justify-self: start;
+    margin-bottom: 10px;
+}
+
+.mapa iframe {
+    height: 450px;
     width: 100%;
-    height: 100%;
     border: 0;
 }
+
 
 .p-imovel {
     display: flex;
@@ -172,6 +182,7 @@ img{
     padding: 40px 0px;
     width: 1120px;
     margin: 40px auto;
+    border-bottom: 1px solid rgba(88, 88, 88, 0.322);
 }
 
 
@@ -328,4 +339,16 @@ p.precoSublinhado {
     color: #6A6A6A;
     font-weight: 600;
     font-size: 14px;
+}
+
+.descricao-localizacao {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 70%;
+    margin: auto;
+}
+
+.descricao-localizacao p {
+    margin: 0;
 }

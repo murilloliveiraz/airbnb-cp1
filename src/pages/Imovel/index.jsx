@@ -51,16 +51,16 @@ const index = () => {
                         <div className="lista-imovel">
                             <ul className="lista-imovel">
                                 <div className="coluna-lista coluna-lista-1">
-                                    <li><span class="material-symbols-outlined">wifi</span> Vista para as montanhas</li>
-                                    <li> <span class="material-symbols-outlined">wifi</span> Cozinha</li>
-                                    <li><span class="material-symbols-outlined">wifi</span>Estacionamento incluído</li>
-                                    <li> <span class="material-symbols-outlined">hot_tub</span>Jacuzzi privativa</li>
+                                    <li><span className="material-symbols-outlined">wifi</span> Vista para as montanhas</li>
+                                    <li> <span className="material-symbols-outlined">wifi</span> Cozinha</li>
+                                    <li><span className="material-symbols-outlined">wifi</span>Estacionamento incluído</li>
+                                    <li> <span className="material-symbols-outlined">hot_tub</span>Jacuzzi privativa</li>
                                 </div>
                                 <div className="coluna-lista coluna-lista-2">
-                                    <li> <span class="material-symbols-outlined">local_florist</span> Vista para o jardim</li>
-                                    <li> <span class="material-symbols-outlined">wifi</span> Wi-Fi</li>
-                                    <li> <span class="material-symbols-outlined">wifi</span>Piscina compartilhada - aquecida</li>
-                                    <li> <span class="material-symbols-outlined">videocam</span>Câmeras de segurança na <br /> parte externa da propriedade</li>
+                                    <li> <span className="material-symbols-outlined">local_florist</span> Vista para o jardim</li>
+                                    <li> <span className="material-symbols-outlined">wifi</span> Wi-Fi</li>
+                                    <li> <span className="material-symbols-outlined">wifi</span>Piscina compartilhada - aquecida</li>
+                                    <li> <span className="material-symbols-outlined">videocam</span>Câmeras de segurança na <br /> parte externa da propriedade</li>
                                 </div>
                             </ul>
                         </div>
@@ -129,6 +129,7 @@ const index = () => {
 
 
             <section className="mapa">
+                <h3>Onde você estará</h3>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14984.005614602811!2d-42.930295799999996!3d-20.133989049999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa4e605179e2c89%3A0x885a732813b087ae!2sMelos%2C%20Dom%20Silv%C3%A9rio%20-%20MG%2C%2035440-000!5e0!3m2!1spt-PT!2sbr!4v1725666778773!5m2!1spt-PT!2sbr"
                     allowFullScreen=""
@@ -138,6 +139,15 @@ const index = () => {
             </section>
 
 
+            <article className="descricao-localizacao">
+                        <h3>Bairro Mellos, Minas Gerais, Brasil</h3>
+                        <p>O Bairro dos Mellos é um bairro rural e familiar. <br />
+                            Nao possui mercados, mas fica bem proximo do centro da cidade de Piranguçu. <br />
+                            Estamos a 1h40m de Campos do Jordao.</p>
+                        <p className="mostrar-mais-imovel">Mostrar mais <svg width="16" height="16" fill="currentColor" className="bi bi-arrow-right " viewBox="0 0 16 16">
+                            <path d="M6.293 12.293a1 1 0 0 1 0-1.414L10.586 8 6.293 3.707a1 1 0 1 1 1.414-1.414l4.5 4.5a1 1 0 0 1 0 1.414l-4.5 4.5a1 1 0 0 1-1.414 0z" />
+                        </svg></p>
+            </article>
         </section>
     )
 }
