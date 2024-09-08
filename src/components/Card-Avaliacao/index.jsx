@@ -6,7 +6,7 @@ const CardAvaliação = (props) => {
     return (
         <article className="card">
                 <div className="profile">
-                    <img src={props.profileImage} alt="mariana" />
+                    <img src={props.profileImage} alt="Foto de perfil do usuário que avaliou" />
                     <div className="profile-name">
                         <h3>{props.name}</h3>
                         <p>{props.timeAtApp}</p>

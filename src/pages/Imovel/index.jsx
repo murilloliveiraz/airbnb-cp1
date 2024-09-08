@@ -24,11 +24,11 @@ const index = () => {
             </section>
 
             <section className="images">
-                <img className="img1" src={img1} alt="Imagem 1" />
-                <img className="img2" src={img2} alt="Imagem 2" />
-                <img className="img3" src={img3} alt="Imagem 3" />
-                <img className="img4" src={img4} alt="Imagem 4" />
-                <img className="img5" src={img5} alt="Imagem 5" />
+                <img className="img1" src={img1} alt="Imagem 1 do imóvel" />
+                <img className="img2" src={img2} alt="Imagem 2 do imóvel" />
+                <img className="img3" src={img3} alt="Imagem 3 do imóvel" />
+                <img className="img4" src={img4} alt="Imagem 4 do imóvel" />
+                <img className="img5" src={img5} alt="Imagem 5 do imóvel" />
             </section>
 
             <section className='conteudoPrincipal'>
