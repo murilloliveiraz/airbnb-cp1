@@ -148,6 +148,38 @@ const index = () => {
                             <path d="M6.293 12.293a1 1 0 0 1 0-1.414L10.586 8 6.293 3.707a1 1 0 1 1 1.414-1.414l4.5 4.5a1 1 0 0 1 0 1.414l-4.5 4.5a1 1 0 0 1-1.414 0z" />
                         </svg></p>
             </article>
+
+            <section className="informacoes">
+                <h3>O que você deve saber</h3>
+                <div className="topicos">
+                <div className="topico">
+                    <h5>Regras da casa</h5>
+                    <p>Check-in: 17:00 - 22:00</p>
+                    <p>Checkout antes das 12:00</p>
+                    <p>Máximo de 2 hóspedes</p>
+                    <a href="#">Mostrar mais <svg width="16" height="16" fill="currentColor" className="bi bi-arrow-right " viewBox="0 0 16 16">
+                            <path d="M6.293 12.293a1 1 0 0 1 0-1.414L10.586 8 6.293 3.707a1 1 0 1 1 1.414-1.414l4.5 4.5a1 1 0 0 1 0 1.414l-4.5 4.5a1 1 0 0 1-1.414 0z" />
+                        </svg></a>
+                </div>
+                <div className="topico">
+                    <h5>Segurança e propriedade</h5>
+                    <p>Não há alarme de fumaça</p>
+                    <p>Câmeras de segurança na parte externa da propriedade</p>
+                    <p>Detector de monóxido de carbono não é necessário</p>
+                    <a href="#">Mostrar mais <svg width="16" height="16" fill="currentColor" className="bi bi-arrow-right " viewBox="0 0 16 16">
+                            <path d="M6.293 12.293a1 1 0 0 1 0-1.414L10.586 8 6.293 3.707a1 1 0 1 1 1.414-1.414l4.5 4.5a1 1 0 0 1 0 1.414l-4.5 4.5a1 1 0 0 1-1.414 0z" />
+                        </svg></a>
+                </div>
+                <div className="topico">
+                    <h5>Política de cancelamento</h5>
+                    <p>Cancelamento gratuito por 48 horas. Se você cancelar antes de 27 de dez., receberá um reembolso parcial.</p>
+                    <p>Consulte a política completa deste anfitrião para saber mais.</p>
+                    <a href="#">Mostrar mais <svg width="16" height="16" fill="currentColor" className="bi bi-arrow-right " viewBox="0 0 16 16">
+                            <path d="M6.293 12.293a1 1 0 0 1 0-1.414L10.586 8 6.293 3.707a1 1 0 1 1 1.414-1.414l4.5 4.5a1 1 0 0 1 0 1.414l-4.5 4.5a1 1 0 0 1-1.414 0z" />
+                        </svg></a>
+                </div>
+                </div>
+            </section>
         </section>
     )
 }

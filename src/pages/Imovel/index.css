@@ -352,3 +352,39 @@ p.precoSublinhado {
 .descricao-localizacao p {
     margin: 0;
 }
+
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 160px;
+    padding: 30px 0;
+    border-bottom: 1px solid #b5b2b2;
+    border-top: 1px solid #b5b2b2;
+}
+
+.informacoes h3 {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.informacoes h5 {
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.informacoes p, a {
+    font-size: 1em;
+    font-weight: normal;
+    color: #000;
+    margin: 5px 0;
+}
+
+.informacoes a {
+    display: inline-flex;
+    align-items: center;
+}
+.topicos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
