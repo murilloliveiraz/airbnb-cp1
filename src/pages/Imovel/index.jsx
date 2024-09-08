@@ -51,15 +51,15 @@ const index = () => {
                         <div className="lista-imovel">
                             <ul className="lista-imovel">
                                 <div className="coluna-lista coluna-lista-1">
-                                    <li><span className="material-symbols-outlined">wifi</span> Vista para as montanhas</li>
-                                    <li> <span className="material-symbols-outlined">wifi</span> Cozinha</li>
-                                    <li><span className="material-symbols-outlined">wifi</span>Estacionamento incluído</li>
+                                    <li><span className="material-symbols-outlined">image</span> Vista para as montanhas</li>
+                                    <li> <span className="material-symbols-outlined">flatware</span> Cozinha</li>
+                                    <li><span className="material-symbols-outlined">garage_home</span>Estacionamento incluído</li>
                                     <li> <span className="material-symbols-outlined">hot_tub</span>Jacuzzi privativa</li>
                                 </div>
                                 <div className="coluna-lista coluna-lista-2">
                                     <li> <span className="material-symbols-outlined">local_florist</span> Vista para o jardim</li>
                                     <li> <span className="material-symbols-outlined">wifi</span> Wi-Fi</li>
-                                    <li> <span className="material-symbols-outlined">wifi</span>Piscina compartilhada - aquecida</li>
+                                    <li> <span className="material-symbols-outlined">pool</span>Piscina compartilhada - aquecida</li>
                                     <li> <span className="material-symbols-outlined">videocam</span>Câmeras de segurança na <br /> parte externa da propriedade</li>
                                 </div>
                             </ul>
