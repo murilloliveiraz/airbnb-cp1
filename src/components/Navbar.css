@@ -11,6 +11,13 @@ header {
     width: 114px;
     margin: auto;
 }
+.baixe-app{
+    display: none;
+}
+
+.logo-header-mini{
+    display: none;
+}
 
 .header-buttons{
     width: 480px;
@@ -65,4 +72,95 @@ header {
     padding: 8px;
     margin-left: 40px;
     height: 30px;
+}
+
+@media screen and (max-width: 768px){
+    header {
+        grid-template-columns: 1fr 4fr 4fr .5fr;
+        place-items: center;
+    }
+
+    
+    .profile-nav{
+        margin: 0;
+    }
+    
+    header {
+        font-size: 14px;
+    }
+    .logo-header {
+        display: none;
+    }
+
+    .logo-header-mini {
+        display: block;
+        width: 40px;
+    }
+
+    .header-buttons {
+        width: 300px;
+    }
+
+    .header-buttons li{
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        padding: 0 16px;
+    }
+
+    .header-buttons .button-search span  {
+        margin-left: 0;
+    }
+    
+    .button-search {
+        padding: 0 16px;
+    }
+
+    .header-buttons li strong {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+}
+
+@media screen and (max-width: 425px){
+    header {
+        display: none;
+    }
+
+    .logo-header-app{
+        width: 40px;
+    }
+    .baixe-app-div-logo{
+        display: flex;
+        gap: 6px;
+        align-items: center;
+    }
+
+    .baixe-app{
+        display: grid;
+        grid-template-columns: 1fr 4fr 1fr;
+        align-items: center;
+        place-items: center;
+        height: 80px;
+        width: 100%;
+        border-bottom: 1px solid rgba(88, 88, 88, 0.322);
+    }
+
+    .button-baixe-app {
+        border-radius: 16px;
+        background: rgb(53, 113, 226);
+        font-size: 14px;
+        font-weight: 500;
+        padding: 6px;
+        border: 0;
+    }
+    .baixe-app h3 {
+        font-size: 16px;
+    }
+
+    .baixe-app p {
+        font-size: 14px;
+    }
 }

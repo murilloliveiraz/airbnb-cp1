@@ -173,7 +173,7 @@ img{
     display: grid;
     grid-template-columns: 2fr 1fr;
     width: 1280px;
-    padding: 40px 80px;
+    margin: 40px 0px;
 }
 
 .avaliacoes {
@@ -388,4 +388,92 @@ p.precoSublinhado {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 40px;
+}
+
+@media screen and (max-width: 768px){
+    .imovel-header {
+        padding: 0;
+        place-items: center;
+        padding: 24px 0;
+        margin: 0 40px;
+    }
+
+    .imovel-header h1 {
+        font-weight: 500;
+        font-size: 26px;
+    }
+    
+    .imovel-header ul li {
+        font-size: 14px;
+        gap: 4px;
+    }
+
+    .imovel-header ul {
+        gap: 10px;
+    }
+
+    .images {
+        height: 350px;
+        margin: 0 40px;
+    }
+
+    .img1, .img2, .img3, .img4, .img5{
+        height: 100%;
+    }
+
+    .conteudoPrincipal {
+        width: 770px;
+        grid-template-columns: 2fr 2fr;
+        justify-items: center;
+    }
+    .oferece-imovel {
+        font-size: 14px;
+        height: auto;
+        width: 400px;
+        margin: 20px 40px;
+    }
+
+    .lista-imovel{
+        flex-direction: column;
+        gap: 16px;
+    }
+    
+    .lista-imovel li {
+        font-size: 14px;
+    }
+
+    .titulo-imovel{
+        margin: 0 40px;
+    }
+
+    .titulo-imovel h2 {
+        font-weight: 500;
+        margin-bottom: 12px;
+    }
+
+    .avaliacoes {
+        width: 770px;
+    }
+    
+    .conteudoPrincipalLadoDireito {
+        width: 230px;
+        height: 494px;
+        font-size: 14px;
+    }
+
+    .conteudoPrincipal article {
+        width: 400px;
+    }
+
+    .descricao-imovel {
+        height: 280px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        margin: 0 40px;
+    }
+
+    .avaliacoes{
+        width: 700px;
+        grid-template-columns: 1fr;
+    }
 }
