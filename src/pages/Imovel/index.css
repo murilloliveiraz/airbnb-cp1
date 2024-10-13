@@ -133,7 +133,7 @@
     border-radius: 16px;
     margin: 0 160px;
     overflow: hidden;
-    height: 40%;
+    height: auto;
 }
 
 .images img:hover{
