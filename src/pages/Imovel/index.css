@@ -133,7 +133,7 @@
     border-radius: 16px;
     margin: 0 160px;
     overflow: hidden;
-    height: 40%;
+    height: auto;
 }
 
 .images img:hover{
@@ -394,7 +394,7 @@ p.precoSublinhado {
     display: none;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (min-width: 768px){
     .imovel-header {
         padding: 0;
         place-items: center;
