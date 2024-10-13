@@ -559,8 +559,7 @@ p.precoSublinhado {
 
     .oferece-imovel, .descricao-imovel, .titulo-imovel, .titulo-responsivo{
         margin: 0;
-        padding: 10px;
-        width: 80%;
+        width: 100%;
     }
 
     .avaliacoes > *:nth-child(n+2) {
@@ -570,6 +569,8 @@ p.precoSublinhado {
     .avaliacoes {
         width: 100%;
         padding: 20px;
+        display: flex;
+        flex-direction: column;
     }
 
     .mostrar-comentarios {
@@ -610,6 +611,8 @@ p.precoSublinhado {
 
     .mapa iframe{
         width: 80%;
+        margin: 0 ;
+        padding: 0;
     }
 
     .preco-responsivo {
@@ -639,5 +642,9 @@ p.precoSublinhado {
         padding: 20px 30px;
         margin: 10px;
         font-size: 1.4rem;
+    }
+
+    .lista-imovel {
+        flex-direction: column;
     }
 }
