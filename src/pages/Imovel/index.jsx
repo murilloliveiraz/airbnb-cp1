@@ -308,6 +308,14 @@ const index = () => {
           </div>
         </div>
       </section>
+
+      <div className="preco-responsivo">
+        <div style={{marginLeft: '20px'}}>
+            <p>R$1.700<span>noite</span></p>
+            <a href="#">28 de fev. - 5 de mar.</a>
+        </div>
+        <button>Reservar</button>
+      </div>
     </section>
   );
 };

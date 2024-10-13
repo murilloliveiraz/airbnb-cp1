@@ -390,7 +390,7 @@ p.precoSublinhado {
     gap: 40px;
 }
 
-.images-header, .images-footer, .titulo-responsivo, .mostrar-comentarios{
+.images-header, .images-footer, .titulo-responsivo, .mostrar-comentarios, .preco-responsivo {
     display: none;
 }
 
@@ -586,8 +586,7 @@ p.precoSublinhado {
 
     .informacoes {
         width: 100%;
-        margin: 0;
-        padding: 30px;
+        margin: 10px;
     }
 
     .informacoes .topicos {
@@ -605,8 +604,40 @@ p.precoSublinhado {
     }
 
     .mapa, .descricao-localizacao {
-        margin: 0;
+        margin: 30px;
         width: 100%;
-        padding: 30px;
+    }
+
+    .mapa iframe{
+        width: 80%;
+    }
+
+    .preco-responsivo {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 700;
+        position: fixed;
+        bottom: 0;
+        background-color: #fff;
+        box-shadow: 0px 0px 16px -4px rgba(0,0,0,0.75);
+        height: 90px;
+    }
+
+    .preco-responsivo span {
+        color: #222222;
+        font-size: .8rem;
+        font-weight: 500;
+    }
+
+    .preco-responsivo button {
+        background-color: rgb(229, 29, 78);
+        color: #fff;
+        border-radius: 10px;
+        border: 0;
+        padding: 20px 30px;
+        margin: 10px;
+        font-size: 1.4rem;
     }
 }
