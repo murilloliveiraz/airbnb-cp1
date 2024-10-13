@@ -390,6 +390,10 @@ p.precoSublinhado {
     gap: 40px;
 }
 
+.images-header, .images-footer, .titulo-responsivo, .mostrar-comentarios{
+    display: none;
+}
+
 @media screen and (max-width: 768px){
     .imovel-header {
         padding: 0;
@@ -475,5 +479,134 @@ p.precoSublinhado {
     .avaliacoes{
         width: 700px;
         grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .imovel-header {
+        display: none;
+    }
+
+    .images{
+        display: flex;
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+        position: relative;
+    }
+
+    .img1{
+        width: 100%;
+    }
+
+    .img2, .img3, .img4, .img5{
+        display: none;
+    }
+
+    .images-header{
+        display: flex;
+        position: absolute;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .images-header span {
+        background-color: #fff;
+        border-radius: 50%;
+        padding: 7px;
+        margin: 7px;
+        color: #3f3f3f;
+        font-size: 1.3rem;
+    }
+
+    .images-footer {
+        display: block;
+        position: absolute;
+        background-color: #00000090;
+        color: #fff;
+        font-size: .7rem;
+        bottom: 10px;
+        right: 10px;
+        padding: 4px 20px;
+        border-radius: 7px;
+        font-weight: 600;
+    }
+
+    .conteudoPrincipalLadoDireito{
+        display: none;
+    }
+
+    .conteudoPrincipal{
+        width: 100%;
+        margin: 0;
+    }
+
+    .titulo-responsivo{
+        display: block;
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
+
+    .titulo-imovel{
+        font-size: .8rem;
+    }
+
+    .conteudoPrincipal article {
+        width: 100%;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .oferece-imovel, .descricao-imovel, .titulo-imovel, .titulo-responsivo{
+        margin: 0;
+        padding: 10px;
+        width: 80%;
+    }
+
+    .avaliacoes > *:nth-child(n+2) {
+        display: none;
+    }
+
+    .avaliacoes {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .mostrar-comentarios {
+        display: flex !important;
+        font-size: 16px;
+        width: 300px;
+        margin-top: 14px;
+        padding: 13px 23px;
+        border: 1px solid #000;
+        text-align: center;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+
+    .informacoes {
+        width: 100%;
+        margin: 0;
+        padding: 30px;
+    }
+
+    .informacoes .topicos {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .informacoes h3{
+        display: none;
+    }
+
+    .topico h5{
+        font-size: 1.5rem;
+    }
+
+    .mapa, .descricao-localizacao {
+        margin: 0;
+        width: 100%;
+        padding: 30px;
     }
 }

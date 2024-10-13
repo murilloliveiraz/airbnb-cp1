@@ -25,7 +25,7 @@ const Navbar = () => {
     </header>
     <div className='baixe-app'>
       <div className='baixe-app-div-logo'>
-      <span className="material-symbols-outlined">
+      <span class="material-symbols-outlined">
       close
       </span>
       <img className='logo-header-app' src="https://cdn.iconscout.com/icon/free/png-256/free-airbnb-logo-icon-download-in-svg-png-gif-file-formats--major-websites-set-pack-logos-icons-461772.png?f=webp&w=256" alt="airbnb logo" />
